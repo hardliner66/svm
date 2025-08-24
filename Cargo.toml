@@ -1,0 +1,12 @@
+[package]
+name = "svm"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.99"
+clap = { version = "4.5.45", features = ["derive"] }
+fuser = "0.15.1"
+libc = "0.2.175"
+svm-image = { path = "crates/image" }
+twox-hash = "2.1.1"
